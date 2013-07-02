@@ -11,7 +11,7 @@ template = """<snippet>
   <tabTrigger>%s</tabTrigger>
   <description>%s</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>%s</scope>
+  <!-- <scope>%s</scope> -->
 </snippet>"""
 
 
