@@ -4,20 +4,18 @@ import os
 
 template = """<snippet>
   <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
-  <!--
-    taken from here: http://sublimetext.info/docs/en/extensibility/snippets.html
-    $SELECTION   The text that was selected when the snippet was triggered.
-    $TM_CURRENT_LINE    Content of the line the cursor was in when the snippet was triggered.
-    $TM_CURRENT_WORD    Current word under the cursor when the snippet was triggered.
-    $TM_FILENAME    File name of the file being edited including extension.
-    $TM_FILEPATH    File path to the file being edited.
-    $TM_FULLNAME    User’s user name.
-    $TM_LINE_INDEX  Column the snippet is being inserted at, 0 based.
-    $TM_LINE_NUMBER Row the snippet is being inserted at, 1 based.
-    $TM_SELECTED_TEXT   An alias for $SELECTION.
-    $TM_SOFT_TABS   YES if translate_tabs_to_spaces is true, otherwise NO.
-    $TM_TAB_SIZE    Spaces per-tab (controlled by the tab_size option).
-  -->
+  <!-- http://sublimetext.info/docs/en/extensibility/snippets.html -->
+  <!-- $SELECTION -->
+  <!-- $TM_CURRENT_LINE -->
+  <!-- $TM_CURRENT_WORD -->
+  <!-- $TM_FILENAME -->
+  <!-- $TM_FILEPATH -->
+  <!-- $TM_FULLNAME -->
+  <!-- $TM_LINE_INDEX -->
+  <!-- $TM_LINE_NUMBER -->
+  <!-- $TM_SELECTED_TEXT -->
+  <!-- $TM_SOFT_TABS -->
+  <!-- $TM_TAB_SIZE -->
   <content><![CDATA[
 %s
 ]]></content>
